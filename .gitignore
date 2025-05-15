@@ -1,0 +1,27 @@
+# Local .terraform directories
+**/.terraform/*
+!.terraform/providers # Optional: keep provider plugins if required
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Exclude override files as they are not meant to be committed
+*.override.tf
+*.override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Terraform plan files
+*.tfplan
+
+# CLI configuration file
+.terraformrc
+terraform.rc
